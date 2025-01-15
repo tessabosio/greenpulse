@@ -60,7 +60,7 @@ const artivismData = [
         location: [52.3676, 4.9041], // Amsterdam
         title: "Città Circolare",
         artist: "Daan Roosegaarde",
-        description: 'Installazione che promuove l\'economia circolare. <br> <a href="https://www.studioroosegaarde.net/project/waterlicht" target="_blank">waterlicht.net</a>',
+        description: 'Come un'inondazione virtuale, Waterlicht rivela i livelli crescenti delle acque e sottolinea l'importanza dell'innovazione nell'ambito idrico e del cambiamento climatico. <br> <a href="https://www.studioroosegaarde.net/project/waterlicht" target="_blank">waterlicht.net</a>',
         image: "https://images.adsttc.com/media/images/5555/a66a/e58e/ce16/aa00/01a7/large_jpg/daan-roosegaarde-museumplein-waterlicht-designboom-02.jpg?1431676518",
     },    
     // Stati Uniti
@@ -70,14 +70,6 @@ const artivismData = [
         artist: "Lauren Bon e Metabolic Studio",
         description: 'Il progetto ha trasformato un terreno industriale in un campo di mais, richiamando l\'attenzione sul recupero degli ecosistemi urbani. <br> <a href="https://www.metabolicstudio.org/tags/not-a-cornfield" target="_blank">metabolicstudio.org</a>',
         image: "https://metabolicstudio-website-media.s3-us-west-1.amazonaws.com/cache/10/6e/106e82ec033fecf76afadbec3acd043b.jpg"
-    },
-    // Australia
-    {
-        location: [-33.8688, 151.2093], // Sydney
-    title: "Rising Waters",
-    artist: "Fintan Magee",
-    description: 'Un\'opera che rappresenta l\'innalzamento del livello del mare, con figure umane che interagiscono con l\'acqua. <br> <a href="https://fintanmagee.com/" target="_blank">fintanmagee.com</a>',
-    image: "https://urban-nation.com/wp-content/uploads/as_150602_t1926_0236_OneWall-FINTAN-2.jpg",
     },
     // Sud Africa
     {
@@ -165,7 +157,7 @@ const artivismData = [
             location: [37.5407, -77.4360], // Richmond, Virginia, USA
             title: "Did I Make the Best Use of the Time I Had?",
             artist: "Noah Scalin, Daniel Caldel",
-            description: 'Installazione che mostra una rappresentazione di Richmond, Virginia, sommersa dall\'acqua, con la citazione <Did I make the best use of the time I had?>, invitando alla riflessione sull\'uso del tempo per combattere il cambiamento climatico. <br> <a href="https://www.noahscalin.com/" target="_blank">noahscalin.com</a>',
+            description: 'Installazione che mostra una rappresentazione di Richmond, Virginia, sommersa dall\'acqua, con la frase Did I make the best use of the time I had?, invitando alla riflessione sull\'uso del tempo per combattere il cambiamento climatico. <br> <a href="https://www.noahscalin.com/" target="_blank">noahscalin.com</a>',
             image: "https://styleweekly.wppcdn.com/wp-content/uploads/2023/08/new_atlantis_old_dominion_final.jpg",
         },
         {
