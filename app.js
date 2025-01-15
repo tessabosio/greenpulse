@@ -44,7 +44,7 @@ const artivismData = [
         location: [59.9139, 10.7522], // Oslo
         title: "Luci del Nord",
         artist: "Artisti vari",
-        description: 'Un progetto artistico e scientifico che unisce arte e ricerca sull\'oceano, situato nell\'Ocean Space Centre. Qui vengono realizzate mostre temporanee, installazioni e attività educative sulla conservazione marina e il riscaldamento globale. <br> <a href="https://www.havromsenteret.no/" target="_blank">havromsenteret.no</a>',
+        description: 'Un progetto artistico e scientifico che unisce arte e ricerca sull\'oceano, situato nell\'Ocean Space Centre. Qui vengono realizzate mostre temporanee, installazioni e attività educative sulla conservazione marina e il riscaldamento globale. <br> <a href="https://www.ocean-space.org/it" target="_blank">ocean-space.org</a>',
         image: "https://lh4.googleusercontent.com/proxy/5cu9wv5LNyEU5Bfu0XJYqlbwMZnS3fJ_IsjPV79xyqA3XUBishCw7P_4KaG8RgMKiqiE9ATL--vE19H9Mf-I-xCz9EkmwRNGkdEQrSX79fKfKsMOm4OqlhPHexNgRr7Sh6f6"
     },
     // Argentina
