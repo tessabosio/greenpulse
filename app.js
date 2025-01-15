@@ -60,7 +60,7 @@ const artivismData = [
         location: [52.3676, 4.9041], // Amsterdam
         title: "Città Circolare",
         artist: "Daan Roosegaarde",
-        description: 'Come un\'inondazione virtuale, l'opera rivela i livelli crescenti delle acque e sottolinea l\'importanza dell\'innovazione nell\'ambito idrico e del cambiamento climatico. <br> <a href="https://www.studioroosegaarde.net/project/waterlicht" target="_blank">waterlicht.net</a>',
+        description: 'Come un\'inondazione virtuale, l\'opera rivela i livelli crescenti delle acque e sottolinea l\'importanza dell\'innovazione nell\'ambito idrico e del cambiamento climatico. <br> <a href="https://www.studioroosegaarde.net/project/waterlicht" target="_blank">waterlicht.net</a>',
         image: "https://images.adsttc.com/media/images/5555/a66a/e58e/ce16/aa00/01a7/large_jpg/daan-roosegaarde-museumplein-waterlicht-designboom-02.jpg?1431676518",
     },    
     // Stati Uniti
