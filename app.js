@@ -22,7 +22,7 @@ const artivismData = [
             title: "Visioni di Futuro",
             artist: "Gec Art",
             description: 'Murales che immaginano un futuro sostenibile per le città. <br> <a href="http://www.gec-art.com/" target="_blank">gec-art.com</a>',
-            image: "http://www.gec-art.com/wp-content/uploads/2015/02/1-o-1-foto-by-moisi-guga-2.jpg",
+            image: "http://www.gec-art.com/wp-content/uploads/2015/02/3-Foto-by-Fiodor-Fieni--1024x682.jpg",
     },
     {
          location: [41.3874, 2.1686], // Barcellona
@@ -85,7 +85,7 @@ const artivismData = [
         title: "Un futuro in fiamme",
         artist: "Faith47",
         description: 'Un\'opera che denuncia l\'emergenza dei cambiamenti climatici attraverso una serie di immagini simboliche. <br> <a href="https://wunderkammern.net/artistswk/faith47/?lang=it" target="_blank">wunderkammern.net</a>',
-        image: "https://www.collater.al/wp-content/uploads/2012/12/the-taming-of-the-beasts.jpg",
+        image: "https://www.muralesmilano.it/wp-content/uploads/2020/10/faith47-street-art-sudafrica.jpg",
     },
     // Belgio
     {
@@ -123,7 +123,7 @@ const artivismData = [
         title: "Flooded McDonald's",
         artist: "Superflex",
         description: 'Replica di un ristorante McDonald\'s lentamente sommerso dall\'acqua durante un temporale intenso. <br> <a href="https://superflex.net/" target="_blank">superflex.net</a>',
-        image: "https://superflex.net/superfleximages/1640w_Flooded_mcdonalds_02_1608210341.jpg",
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVxzU78wfkYdA-5t3GldtZQoGleIFYLAxPKNG-1CFYGykeZsadvHKR1Aw5qgJB5rMKdwYYEWtTq0FOji1-1IyewJR05gTnYhQbSl0kn7361JO2KvqcV0T92FFPHk2MymAv3shuc6SuAIlD/s1600/danish+artist+trio+superflex+%2528rasmus+nielsen%252C+jakob+fenger+and+bj%25C3%25B8rnstjerne+christiansen%2529+wanted+to+depict+a+critique.jpg",
     },
     {
         location: [47.2184, -1.5536], // Nantes, Francia
@@ -236,14 +236,14 @@ const artivismData = [
             "title": "Tree Mountain - A Living Time Capsule",
             "artist": "Agnes Denes",
             "description": 'Tree Mountain è un progetto di land art realizzato da Agnes Denes: una montagna artificiale ellittica, piantata con 11.000 alberi da altrettante persone vicino a Ylöjärvi, Finlandia. Annunciato al Summit della Terra del 1992, il progetto unisce arte e sostenibilità, creando un bosco protetto per 400 anni. Gli alberi seguono uno schema basato sulla sezione aurea, simbolo dell\'armonia tra natura e matematica. <br> <a href="http://www.agnesdenesstudio.com/" target="_blank">agnesdenesstudio.com</a>',
-            "image": "http://www.agnesdenesstudio.com/img/works4/works4-2.jpg"
+            "image": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzQzNTI4OS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTc4NDEzMzQ5OH0.yCv-xjQkXpZ46eujDcYFYlW1vnSnn_ZzEDCzBVegBjg/img.jpg?width=1200&height=800&quality=85&coordinates=0%2C0%2C0%2C0"
         },
         {
             "location": [-37.7760, 144.9603], // Melbourne, Australia
             "title": "A Forest for Australia",
             "artist": "Agnes Denes",
             "description": "A Forest for Australia è un progetto di land art creato da Agnes Denes nel 1998, situato nell'Altoona Treatment Plant di Melbourne. Il progetto prevede la piantagione di 6000 alberi di una specie in pericolo, piantati in cinque spirali che, con la crescita degli alberi, diventeranno piramidi a gradoni. Questo intervento aiuta a combattere l'erosione del suolo e la desertificazione che minacciano l'Australia. <br> <a href=\"http://www.agnesdenesstudio.com/\" target=\"_blank\">agnesdenesstudio.com</a>",
-            "image": "http://www.agnesdenesstudio.com/img/works9/works9.jpg"
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ad-treemountaintriptych-ad-edit-hr-copy.jpg?q=w_1110,c_fill"
         },
         {
             "location": [10.4806, -66.9036], // Caracas, Venezuela
@@ -271,7 +271,7 @@ const artivismData = [
             "title": "Corona Save The Beach Hotel",
             "artist": "HA Schult",
             "description": 'Nel 2010, per sensibilizzare sul corretto smaltimento dei rifiuti e sulla tutela delle spiagge, Corona ha realizzato un hotel costruito con rifiuti raccolti su spiagge europee. L\'installazione temporanea, progettata dall\'artista tedesco HA Schult, è stata allestita a Roma nei pressi di Castel Sant\'Angelo. <br> <a href="https://www.surfertoday.com/environment/corona-trash-hotel-opens-in-rome" target="_blank">www.surfertoday.com</a>',
-            "image": "https://www.surfertoday.com/images/stories/corona-trash-hotel.jpg"
+            "image": "https://www.studioargento.com/arte/trash-hotel/icons/pano05.jpg"
         },
         {
             "location": [38.7169, -9.1395], // Lisbona, Portogallo
