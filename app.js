@@ -243,7 +243,7 @@ const artivismData = [
             "title": "A Forest for Australia",
             "artist": "Agnes Denes",
             "description": "A Forest for Australia è un progetto di land art creato da Agnes Denes nel 1998, situato nell'Altoona Treatment Plant di Melbourne. Il progetto prevede la piantagione di 6000 alberi di una specie in pericolo, piantati in cinque spirali che, con la crescita degli alberi, diventeranno piramidi a gradoni. Questo intervento aiuta a combattere l'erosione del suolo e la desertificazione che minacciano l'Australia. <br> <a href=\"http://www.agnesdenesstudio.com/\" target=\"_blank\">agnesdenesstudio.com</a>",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ad-treemountaintriptych-ad-edit-hr-copy.jpg?q=w_1110,c_fill"
+            "image": "https://www.gww.com.au/sites/default/files/images/2023-03/DearAgnes_A-Forest_920x421.jpg"
         },
         {
             "location": [10.4806, -66.9036], // Caracas, Venezuela
