@@ -22,7 +22,7 @@ const artivismData = [
             title: "Visioni di Futuro",
             artist: "Gec Art",
             description: 'Murales che immaginano un futuro sostenibile per le città. <br> <a href="http://www.gec-art.com/" target="_blank">gec-art.com</a>',
-            image: "http://www.gec-art.com/wp-content/uploads/2015/02/3-Foto-by-Fiodor-Fieni--1024x682.jpg",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST3iZJ_sVEoTnbI9QOr7IOzvnFP16FhaCXhw&s",
     },
     {
          location: [41.3874, 2.1686], // Barcellona
