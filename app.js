@@ -285,8 +285,14 @@ const artivismData = [
             "artist": "Stefano Cagol",
             "description": 'Stefano Cagol, artista trentino, ha esposto nel 2013 a Venezia il progetto The Ice Monolith, un blocco di ghiaccio di 1400 kg proveniente dalle Alpi, simbolo del cambiamento climatico. Lo scioglimento del ghiaccio rappresenta la minaccia per le zone costiere, come le Maldive, messe in pericolo dall\'innalzamento del livello del mare. <br> <a href="https://www.stefanocagol.com/" target="_blank">stefanocagol.com</a>',
             "image": "https://corriereinnovazione.corriere.it/methode_image/2019/07/09/Innovazione/Foto%20Innovazione/the%20ice%20monolith.JPG?v=20190715174510"
-        }                         
-                              
+        },
+    {
+            "location": [-33.8915, 151.2767], // Bondi, Australia
+            "title": "The Inconvenience Store",
+            "artist": "Marina DeBris",
+            "description": "Installazione del 2017 che simula un minimarket, dove tutta la merce è costituita da materiali raccolti al largo della spiaggia e riconfezionati. Ha vinto 3 premi, tra cui il Peoples Choice al Sydney's Sculpture By the Sea, sensibilizzando sul problema dei rifiuti marini. Per maggiori dettagli visita il sito web: <a href='http://www.washedup.us/' target='_blank'>washedup.us</a>.",
+            "image": "https://www.thegreensideofpink.com/wp-content/uploads/2021/10/The-Inconvenience-Store-Objects-1024x955.jpg"
+        }                    
     ];
 
 // Aggiungi i marker per ogni progetto di artivismo
