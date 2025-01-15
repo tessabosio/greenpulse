@@ -290,7 +290,7 @@ const artivismData = [
             "location": [-33.8915, 151.2767], // Bondi, Australia
             "title": "The Inconvenience Store",
             "artist": "Marina DeBris",
-            "description": "Installazione del 2017 che simula un minimarket, dove tutta la merce è costituita da materiali raccolti al largo della spiaggia e riconfezionati. Ha vinto 3 premi, tra cui il Peoples Choice al Sydney's Sculpture By the Sea, sensibilizzando sul problema dei rifiuti marini. Per maggiori dettagli visita il sito web: <a href='http://www.washedup.us/' target='_blank'>washedup.us</a>",
+            "description": "Installazione del 2017 che simula un minimarket, dove tutta la merce è costituita da materiali raccolti al largo della spiaggia e riconfezionati. Ha vinto 3 premi, tra cui il Peoples Choice al Sydney's Sculpture By the Sea, sensibilizzando sul problema dei rifiuti marini. <a href='http://www.washedup.us/' target='_blank'>washedup.us</a>",
             "image": "https://www.thegreensideofpink.com/wp-content/uploads/2021/10/The-Inconvenience-Store-Objects-1024x955.jpg"
         }                    
     ];
