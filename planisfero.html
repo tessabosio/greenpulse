@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenPulse</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> <!-- Font Poppins -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif; /* Applicato il font a tutto il corpo */
+        }
+
+        #map {
+            height: 100vh; /* Altezza della mappa: 100% della finestra */
+            width: 100%; /* Larghezza della mappa */
+        }
+
+        .popup-content {
+            font-size: 12px;
+            line-height: 1.2;
+            max-width: 200px;
+            word-wrap: break-word;
+        }
+
+        .popup-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 5px;
+        }
+
+        .popup-content h3 {
+            font-size: 14px;
+            margin: 0 0 5px;
+        }
+
+        .popup-content p {
+            margin: 0 0 5px;
+        }
+
+        .popup-content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.7rem;
+            color: white;
+            text-align: center;
+            font-family: 'Poppins', sans-serif; /* Font per il footer */
+            z-index: 1000; /* Per assicurarsi che il footer sia sopra la mappa */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <footer>
+        <p>Tessa Bosio, Accademia di Belle Arti di Urbino, Scuola di Nuove Tecnologie dell’Arte, Progettazione Multimediale II, A.A. 24-25</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

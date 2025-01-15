@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inizia il tuo Viaggio / GreenPulse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff;
+            overflow-x: hidden;
+        }
+
+        .hero-section {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .hero-section video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; /* Manda il video sotto al testo */
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 10%; 
+            left: 50%;
+            transform: translate(-50%, -10%);
+            text-align: center;
+            color: white;
+            width: 100%;
+            animation: slideIn 2s ease-out; /* Animazione per il testo */
+        }
+
+        .hero-text h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeInText 1.5s forwards 1s; /* Animazione per il titolo */
+        }
+
+        .hero-text p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0;
+            animation: fadeInText 1.5s forwards 1.5s; /* Animazione per il paragrafo */
+        }
+
+        .cta-button {
+            padding: 15px 30px;
+            background-color: #2D9CDB;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            animation: bounce 1s ease infinite; /* Animazione di rimbalzo per il pulsante */
+        }
+
+        .cta-button:hover {
+            background-color: #1A74B9;
+            transform: scale(1.1); /* Animazione di ingrandimento al passaggio del mouse */
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.7rem;
+            color: white;
+            text-align: center;
+            opacity: 0;
+            animation: fadeInFooter 2s forwards 2.5s; /* Animazione del footer */
+        }
+
+        /* Animazione per il fade-in della sezione hero */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Animazione di scivolamento del testo */
+        @keyframes slideIn {
+            0% {
+                transform: translate(-50%, -10%) translateY(50px);
+            }
+            100% {
+                transform: translate(-50%, -10%) translateY(0);
+            }
+        }
+
+        /* Animazione per il titolo e il paragrafo */
+        @keyframes fadeInText {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Animazione di rimbalzo per il pulsante */
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            25% {
+                transform: translateY(-10px);
+            }
+            50% {
+                transform: translateY(0);
+            }
+            75% {
+                transform: translateY(-5px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        /* Animazione del footer */
+        @keyframes fadeInFooter {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <section class="hero-section">
+        <!-- Video di sfondo -->
+        <video autoplay loop muted playsinline>
+            <source src="images/terra_video.mp4" type="video/mp4">
+            Il tuo browser non supporta il video di sfondo.
+        </video>
+
+        <div class="hero-text">
+            <h1>Inizia il Tuo Viaggio nell'Artivismo Climatico</h1>
+            <p>Esplora un planisfero interattivo con le opere di artivisti, <br> dove ogni punto rappresenta un'azione di cambiamento sociale <br> e consapevolezza sul cambiamento climatico attraverso l'arte.</p>
+            <a href="planisfero.html" class="cta-button">Inizia il tuo viaggio</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Tessa Bosio, Accademia di Belle Arti di Urbino, Scuola di Nuove Tecnologie dell’Arte, Progettazione Multimediale II, A.A. 24-25</p>
+    </footer>
+
+</body>
+</html>
