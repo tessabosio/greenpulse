@@ -121,7 +121,7 @@ const artivismData = [
         location: [47.2184, -1.5536], // Nantes, Francia
         title: "Cement Eclipses",
         artist: "Isaac Cordal",
-        description: 'Miniature in cemento che rappresentano l\'indifferenza della società verso il cambiamento climatico. <br> <a href="https://cementeclips" target="_blank">cementeclipses.com</a>',
+        description: 'Miniature in cemento che rappresentano l\'indifferenza della società verso il cambiamento climatico. <br> <a href="https://cementeclipses.com/" target="_blank">cementeclipses.com</a>',
         image: "https://cementeclipses.com/wp-content/uploads/2013/11/resized_IMG_3195.jpg",
     },
     // Singapore
@@ -262,7 +262,7 @@ const artivismData = [
             "location": [41.9029, 12.4664], // Roma, Italia (Castel Sant'Angelo)
             "title": "Corona Save The Beach Hotel",
             "artist": "HA Schult",
-            "description": 'Nel 2010, per sensibilizzare sul corretto smaltimento dei rifiuti e sulla tutela delle spiagge, Corona ha realizzato un hotel costruito con rifiuti raccolti su spiagge europee. L\'installazione temporanea, progettata dall\'artista tedesco HA Schult, è stata allestita a Roma nei pressi di Castel Sant\'Angelo. <br> <a href="https://www.surfertoday.com/environment/corona-trash-hotel-opens-in-rome" target="_blank">www.surfertoday.com</a>',
+            "description": 'Nel 2010, per sensibilizzare sul corretto smaltimento dei rifiuti e sulla tutela delle spiagge, Corona ha realizzato un hotel costruito con rifiuti raccolti su spiagge europee. L\'installazione temporanea, progettata dall\'artista tedesco HA Schult, è stata allestita a Roma nei pressi di Castel Sant\'Angelo. <br> <a href="https://www.haschult.de/" target="_blank">www.haschult.de</a>',
             "image": "https://www.studioargento.com/arte/trash-hotel/icons/pano05.jpg"
         },
         {
