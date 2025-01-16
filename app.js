@@ -334,6 +334,41 @@ const artivismData = [
             "artist": "Blu",
             "description": 'Sull\'alta colonna di un palazzo di uffici a Berlino, lo street artist Blu ha realizzato un\'immensa clessidra che ci scruta dall\'alto, un monito sul fatto che il tempo scorre inesorabile. Con questo murales, Blu sensibilizza il pubblico riguardo lo scioglimento dei ghiacciai e l\'innalzamento del livello del mare, fenomeni che minacciano le nostre città. La clessidra diventa un simbolo di urgenza, ricordandoci che è il momento di agire prima che sia troppo tardi. <br> <a href=\"https://www.blublu.org/\" target=\"_blank\">blublu.org</a>',
             "image": "https://www.muralesmilano.it/wp-content/uploads/2023/03/global-warming-emergenza.jpeg"
+        },
+    {
+            "location": [63.567, 10.537], // Tautra, Norvegia
+            "title": "Pollution Pods",
+            "artist": "Michael Pinsky",
+            "description": 'Un progetto promosso da Cape Farewell, le Pollution Pods di Michael Pinsky sono cupole geodetiche che riproducono l\'ambiente inquinato delle grandi metropoli. Il progetto, concepito per sensibilizzare sull\'inquinamento atmosferico globale, è stato pianificato per un tour mondiale nel 2020, subendo però interruzioni a causa dell\'emergenza sanitaria. <br> <a href=\"https://www.michaelpinsky.com/\" target=\"_blank\">michaelpinsky.com</a>',
+            "image": "https://www.michaelpinsky.com/wp-content/uploads/2017/07/12.-Pollution-Pods-by-Michael-Pinsky-at-Somerset-House-for-Earth-Day-2018-c-Peter-Macdiarmid-for-Somerset-House-1-e1615463490149.jpg"
+        },
+    {
+            "location": [54.6333, 8.0833], // North Sea, Germania
+            "title": "Water House",
+            "artist": "Nils-Udo",
+            "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
+            "image": "https://arquiscopio.com/wp-content/uploads/2013/01/130123_NilsUdo_WaterHouse.jpg"
+        },
+        {
+            "location": [49.2497, -123.1349], // Vancouver, Canada
+            "title": "Water House",
+            "artist": "Nils-Udo",
+            "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
+            "image": "https://www.exibart.com/repository/media/2020/11/Nils-Udo-Sequoia-Piece-Vancouver-1-di-5-124-x-124-2012.jpeg"
+        },
+        {
+            "location": [28.2916, -16.5000], // Lanzarote, Spagna
+            "title": "Water House",
+            "artist": "Nils-Udo",
+            "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
+            "image": "https://www.photoandcontemporary.com/wp-content/uploads/2021/04/Bamboo-Circle-Lanzarote-2002-1.jpg"
+        },
+        {
+            "location": [34.6775, -82.8310], // Lanzarote, Spagna
+            "title": "Water House",
+            "artist": "Nils-Udo",
+            "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
+            "image": "https://www.thisiscolossal.com/wp-content/uploads/2012/03/nest-1.jpg"
         }
 
     ];
