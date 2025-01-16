@@ -327,7 +327,14 @@ const artivismData = [
             "artist": "Natalia Rak",
             "description": 'L\'opera Là dove c’era un fiore di Natalia Rak, una giovane artista del 1986, è diventata celebre per la sua raffigurazione di una bambina con treccine rosse (finta) che innaffia con delicatezza un albero (vero). Questo murale è stato realizzato su un edificio popolare di Bialystok, in Polonia, ed è un simbolo di speranza e rinascita. <br> <a href=\"https://www.instagram.com/nataliarakart/" target=\"_blank\">natalia-rak</a>',
             "image": "https://anteritalia.org/wp-content/uploads/2018/01/%E2%80%9CL%C3%A0-dove-c%E2%80%99era-un-fiore%E2%80%9D-di-Natalia-Rak.jpg"
-        } 
+        },
+    {
+            "location": [52.5200, 13.4050], // Berlino, Germania
+            "title": "Clessidra",
+            "artist": "Blu",
+            "description": 'Sull\'alta colonna di un palazzo di uffici a Berlino, lo street artist Blu ha realizzato un\'immensa clessidra che ci scruta dall\'alto, un monito sul fatto che il tempo scorre inesorabile. Con questo murales, Blu sensibilizza il pubblico riguardo lo scioglimento dei ghiacciai e l\'innalzamento del livello del mare, fenomeni che minacciano le nostre città. La clessidra diventa un simbolo di urgenza, ricordandoci che è il momento di agire prima che sia troppo tardi. <br> <a href=\"https://www.blublu.org/\" target=\"_blank\">blublu.org</a>',
+            "image": "https://www.muralesmilano.it/wp-content/uploads/2023/03/global-warming-emergenza.jpeg"
+        }
 
     ];
 
