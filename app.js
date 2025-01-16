@@ -369,6 +369,13 @@ const artivismData = [
             "artist": "Nils-Udo",
             "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
             "image": "https://www.thisiscolossal.com/wp-content/uploads/2012/03/nest-1.jpg"
+        },
+    {
+            "location": [-22.9576, 18.4904], // Nambia Desert, Namibia
+            "title": "Water House",
+            "artist": "Nils-Udo",
+            "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
+            "image": "https://www.artfervour.com/wp-content/uploads/2024/10/dsc_3175-1.jpg"
         }
 
     ];
