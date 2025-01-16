@@ -292,7 +292,21 @@ const artivismData = [
             "artist": "Marina DeBris",
             "description": "Installazione del 2017 che simula un minimarket, dove tutta la merce è costituita da materiali raccolti al largo della spiaggia e riconfezionati. Ha vinto 3 premi, tra cui il Peoples Choice al Sydney's Sculpture By the Sea, sensibilizzando sul problema dei rifiuti marini. <br> <a href='http://www.washedup.us/' target='_blank'>washedup.us</a>",
             "image": "https://www.thegreensideofpink.com/wp-content/uploads/2021/10/The-Inconvenience-Store-Objects-1024x955.jpg"
-        }                    
+        },
+    {
+            "location": [39.7285, -121.8375], // Chico State University, California, USA
+            "title": "Oggi Decide il Domani",
+            "artist": "Jerome 'J' Pouwels e gli studenti della classe di muralismo",
+            "description": 'Nella primavera del 2023, Jerome J Pouwels e la sua classe di muralismo alla Chico State University hanno creato un murale che riflette l\'intersezione tra agricoltura, cambiamento climatico e azione comunitaria. Raffigurando un uccello che tiene uno striscione con il messaggio Oggi Decide il Domani, incoraggia pratiche agricole sostenibili. Il murale mostra mani diverse che piantano papaveri della California, simbolo di unità e speranza per un futuro sostenibile. <br> <a href="https://environment.ucdavis.edu/activism-through-art" target="_blank">environment.ucdavis.edu</a>',
+            "image": "https://environment.ucdavis.edu/sites/g/files/dgvnsk12456/files/styles/sf_medium_width/public/media/images/IMG_3068-2resize.jpg?itok=ou2sfbUP"
+        },
+        {
+            "location": [51.4545, -2.5879], // Bristol, Inghilterra
+            "title": "Enorme Greta",
+            "artist": "Jody Thomas",
+            "description": 'Un murale realizzato durante il festival di Street Art Upfest Summer Editions a Bristol raffigura il volto della giovane attivista ambientale Greta Thunberg. L\'opera, creata dall\'artista Jody Thomas, sottolinea il ruolo di Greta come simbolo della lotta contro il cambiamento climatico. <br> <a href="https://www.jodyart.co.uk/?fbclid=PAZXh0bgNhZW0CMTEAAaZwpq-XZhNFlbgIG9SqbNpE2OIyRdcYnjvsOBcUoeyFEw-iWGq8fWDeb_M_aem_U7AhfW1G8isuCpfezzC6bQ" target="_blank">jodyart.co</a>',
+            "image": "https://www.ehabitat.it/wp-content/uploads/2019/06/greta-thunberg-murale-bristol.jpg"
+        }
     ];
 
 // Aggiungi i marker per ogni progetto di artivismo
