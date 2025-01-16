@@ -306,7 +306,29 @@ const artivismData = [
             "artist": "Jody Thomas",
             "description": 'Un murale realizzato durante il festival di Street Art Upfest Summer Editions a Bristol raffigura il volto della giovane attivista ambientale Greta Thunberg. L\'opera, creata dall\'artista Jody Thomas, sottolinea il ruolo di Greta come simbolo della lotta contro il cambiamento climatico. <br> <a href="https://www.jodyart.co.uk/?fbclid=PAZXh0bgNhZW0CMTEAAaZwpq-XZhNFlbgIG9SqbNpE2OIyRdcYnjvsOBcUoeyFEw-iWGq8fWDeb_M_aem_U7AhfW1G8isuCpfezzC6bQ" target="_blank">jodyart.co</a>',
             "image": "https://www.ehabitat.it/wp-content/uploads/2019/06/greta-thunberg-murale-bristol.jpg"
-        }
+        },
+    {
+            "location": [45.4419, 12.3302], // Venezia, Italia
+            "title": "Supporto Gigante",
+            "artist": "Lorenzo Quinn",
+            "description": 'L\'opera dell\'artista Lorenzo Quinn, presentata alla 57esima Biennale di Venezia, consiste in due mani giganti scolpite che reggono palazzo Ca\' Sagredo. Le mani simboleggiano il supporto necessario per mantenere stabile uno degli edifici storici più importanti della città, un atto che si inserisce nel contesto della lotta contro il cambiamento climatico che minaccia la bellezza e la storia di Venezia. <br> <a href=\"https://www.lorenzoquinn.com\" target=\"_blank\">lorenzoquinn.com</a>',
+            "image": "https://sb.ecobnb.net/app/uploads/sites/2/2021/08/support-870x490.png.webp"
+        },
+    {
+    "location": [44.8176, 20.4633], // Belgrado, Serbia
+    "title": "Appetite for Destruction",
+    "artist": "Blu",
+    "description": "L'opera 'Appetite for Destruction' dell'artista Blu, situata sulla facciata di un palazzo a Belgrado, affronta il tema della cementificazione selvaggia. Il murale raffigura un uomo con denti a forma di palazzi che divora alberi, un potente simbolo contro la distruzione dell'ambiente e la crescita incontrollata delle città. <br> <a href=\"https://www.blublu.org/\" target=\"_blank\">blublu.org</a>",
+    "image": "https://anteritalia.org/wp-content/uploads/2018/01/Appetite-for-Destruction-di-Blu.jpeg"
+},
+    {
+            "location": [53.1324, 23.1683], // Bialystok, Polonia
+            "title": "Là dove c’era un fiore",
+            "artist": "Natalia Rak",
+            "description": 'L\'opera Là dove c’era un fiore di Natalia Rak, una giovane artista del 1986, è diventata celebre per la sua raffigurazione di una bambina con treccine rosse (finta) che innaffia con delicatezza un albero (vero). Questo murale è stato realizzato su un edificio popolare di Bialystok, in Polonia, ed è un simbolo di speranza e rinascita. <br> <a href=\"https://www.instagram.com/nataliarakart/" target=\"_blank\">natalia-rak</a>',
+            "image": "https://anteritalia.org/wp-content/uploads/2018/01/%E2%80%9CL%C3%A0-dove-c%E2%80%99era-un-fiore%E2%80%9D-di-Natalia-Rak.jpg"
+        } 
+
     ];
 
 // Aggiungi i marker per ogni progetto di artivismo
