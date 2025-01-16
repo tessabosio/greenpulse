@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="pianeta.png" type="image/jpeg">
     <title>Inizia il Tuo Viaggio / GreenPulse</title>
+    <link rel="icon" href="images/pianeta.png" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <style>
         * {
@@ -149,6 +149,26 @@
             }
         }
 
+        /* Media Query per dispositivi con schermi piccoli (smartphone) */
+        @media only screen and (max-width: 768px) {
+            .hero-text h1 {
+                font-size: 2rem; /* Riduce la dimensione del titolo */
+            }
+
+            .hero-text p {
+                font-size: 1rem; /* Riduce la dimensione del paragrafo */
+            }
+
+            .cta-button {
+                font-size: 0.9rem; /* Riduce la dimensione del pulsante */
+                padding: 12px 24px; /* Riduce il padding per dispositivi mobili */
+            }
+
+            footer {
+                font-size: 0.6rem; /* Riduce la dimensione del testo nel footer */
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -156,7 +176,7 @@
     <section class="hero-section">
         <!-- Video di sfondo -->
         <video autoplay loop muted playsinline>
-            <source src="terra_video.mp4" type="video/mp4">
+            <source src="images/terra_video.mp4" type="video/mp4">
             Il tuo browser non supporta il video di sfondo.
         </video>
 
