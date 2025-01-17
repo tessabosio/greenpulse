@@ -376,7 +376,42 @@ const artivismData = [
             "artist": "Nils-Udo",
             "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
             "image": "https://www.artfervour.com/wp-content/uploads/2024/10/dsc_3175-1.jpg"
-        }
+        },
+    {
+            "location": [41.1239, -8.6110], // Vila Nova de Gaia, Portogallo
+            "title": "O Coelho (Il Coniglio)",
+            "artist": "Bordalo II",
+            "description": "Situata a Vila Nova de Gaia, sulle sponde del fiume Douro di fronte a Porto, 'O Coelho' è un'opera di Bordalo II che trasforma materiali di scarto in un'icona visiva. Quest'opera sottolinea l'importanza del riciclo e dell'arte sostenibile, mostrando come i rifiuti possano essere trasformati in bellezza.",
+            "image": "https://i.pinimg.com/736x/c3/91/c2/c391c27ade859733c2a005ddd7f812cd.jpg"
+        },
+        {
+            "location": [40.2033, -8.4103], // Coimbra, Portogallo
+            "title": "Half Gorilla (Il Gorilla)",
+            "artist": "Bordalo II",
+            "description": "Situata a Coimbra, 'Half Gorilla' è un'opera di Bordalo II che rappresenta gli animali in una fusione tra rifiuti colorati e superfici monocromatiche. L'opera evidenzia la dicotomia tra natura e degrado urbano, sensibilizzando il pubblico sul tema dell'impatto umano sull'ambiente.",
+            "image": "https://cdn.artcld.com/img/w_1920,c_fit/hlv7lokpxh6owxahbii4.jpg"
+        },
+        {
+            "location": [45.2251, 11.6641], // Este, Italia
+            "title": "Il Riccio",
+            "artist": "Bordalo II",
+            "description": "Realizzata nel 2015 a Este, 'Il Riccio' è una scultura di Bordalo II che trasforma un vecchio parcheggio di autobus in un'esperienza artistica unica. L'opera utilizza materiali di scarto per creare un riccio gigante, combinando arte e sostenibilità per ridefinire uno spazio industriale in chiave creativa.",
+            "image": "https://www.corriere.it/methode_image/2021/04/09/Interni/Foto%20Interni%20-%20Trattate/Bordalo-kB0B-U32501760120458QP-656x492@Corriere-Web-Sezioni.jpg"
+        },
+        {
+            "location": [45.4064, 11.8768], // Padova, Italia, zona industriale
+            "title": "I Don’t Want Your Hope",
+            "artist": "Axe",
+            "description": 'Situato nella zona industriale di Padova, il murale I Don’t Want Your Hope dello street artist Axe cita Greta Thunberg per sensibilizzare sul cambiamento climatico. L\'opera è un potente richiamo all\'urgenza di azioni concrete e rappresenta un esempio di arte urbana impegnata. <br> <a href="http://axegallery.it/gallery/" target="_blank">axegallery.it</a>',
+            "image": "https://lh5.googleusercontent.com/proxy/GLHT4DGFg5IdlGQsXbPd23LX4bJ4B6oVLxNk61FKSCz8Koz47yRBscTtp5LGv7w2pNuHteSdkxXXo-t7WgMvhO3I38K8f_57PZyLEHTWAxs0BQe7pJ-uqM4JNx8JHsBnTno0ysYeTgdfZq368rQ9"
+        },
+        {
+            "location": [40.8225, 14.2035], // Napoli, Italia, Fuorigrotta
+            "title": "#UnlockTheChange",
+            "artist": "Zed1",
+            "description": 'Situata a Napoli, nel quartiere Fuorigrotta, #UnlockTheChange di Zed1 è una delle opere antismog più grandi in Italia. Capace di assorbire lo smog prodotto da 79 automobili, questa imponente installazione è un esempio di come l\'arte urbana possa contribuire concretamente alla sostenibilità ambientale. <br> <a href="https://www.instagram.com/zed1_art/" target="_blank">instagram.com/zed1</a>',
+            "image": "https://www.art-vibes.com/wp-content/uploads/2023/07/zed1-unlock-3.jpg"
+        } 
 
     ];
 
