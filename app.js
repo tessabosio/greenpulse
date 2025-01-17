@@ -286,14 +286,14 @@ const artivismData = [
             "description": 'Stefano Cagol, artista trentino, ha esposto nel 2013 a Venezia il progetto The Ice Monolith, un blocco di ghiaccio di 1400 kg proveniente dalle Alpi, simbolo del cambiamento climatico. Lo scioglimento del ghiaccio rappresenta la minaccia per le zone costiere, come le Maldive, messe in pericolo dall\'innalzamento del livello del mare. <br> <a href="https://www.stefanocagol.com/" target="_blank">stefanocagol.com</a>',
             "image": "https://corriereinnovazione.corriere.it/methode_image/2019/07/09/Innovazione/Foto%20Innovazione/the%20ice%20monolith.JPG?v=20190715174510"
         },
-    {
+        {
             "location": [-33.8915, 151.2767], // Bondi, Australia
             "title": "The Inconvenience Store",
             "artist": "Marina DeBris",
             "description": "Installazione del 2017 che simula un minimarket, dove tutta la merce è costituita da materiali raccolti al largo della spiaggia e riconfezionati. Ha vinto 3 premi, tra cui il Peoples Choice al Sydney's Sculpture By the Sea, sensibilizzando sul problema dei rifiuti marini. <br> <a href='http://www.washedup.us/' target='_blank'>washedup.us</a>",
             "image": "https://www.thegreensideofpink.com/wp-content/uploads/2021/10/The-Inconvenience-Store-Objects-1024x955.jpg"
         },
-    {
+        {
             "location": [39.7285, -121.8375], // Chico State University, California, USA
             "title": "Oggi Decide il Domani",
             "artist": "Jerome 'J' Pouwels e gli studenti della classe di muralismo",
@@ -307,42 +307,42 @@ const artivismData = [
             "description": 'Un murale realizzato durante il festival di Street Art Upfest Summer Editions a Bristol raffigura il volto della giovane attivista ambientale Greta Thunberg. L\'opera, creata dall\'artista Jody Thomas, sottolinea il ruolo di Greta come simbolo della lotta contro il cambiamento climatico. <br> <a href="https://www.jodyart.co.uk/?fbclid=PAZXh0bgNhZW0CMTEAAaZwpq-XZhNFlbgIG9SqbNpE2OIyRdcYnjvsOBcUoeyFEw-iWGq8fWDeb_M_aem_U7AhfW1G8isuCpfezzC6bQ" target="_blank">jodyart.co</a>',
             "image": "https://www.ehabitat.it/wp-content/uploads/2019/06/greta-thunberg-murale-bristol.jpg"
         },
-    {
+        {
             "location": [45.4419, 12.3302], // Venezia, Italia
             "title": "Supporto Gigante",
             "artist": "Lorenzo Quinn",
             "description": 'L\'opera dell\'artista Lorenzo Quinn, presentata alla 57esima Biennale di Venezia, consiste in due mani giganti scolpite che reggono palazzo Ca\' Sagredo. Le mani simboleggiano il supporto necessario per mantenere stabile uno degli edifici storici più importanti della città, un atto che si inserisce nel contesto della lotta contro il cambiamento climatico che minaccia la bellezza e la storia di Venezia. <br> <a href=\"https://www.lorenzoquinn.com\" target=\"_blank\">lorenzoquinn.com</a>',
             "image": "https://sb.ecobnb.net/app/uploads/sites/2/2021/08/support-870x490.png.webp"
         },
-    {
-    "location": [44.8176, 20.4633], // Belgrado, Serbia
-    "title": "Appetite for Destruction",
-    "artist": "Blu",
-    "description": "L'opera 'Appetite for Destruction' dell'artista Blu, situata sulla facciata di un palazzo a Belgrado, affronta il tema della cementificazione selvaggia. Il murale raffigura un uomo con denti a forma di palazzi che divora alberi, un potente simbolo contro la distruzione dell'ambiente e la crescita incontrollata delle città. <br> <a href=\"https://www.blublu.org/\" target=\"_blank\">blublu.org</a>",
-    "image": "https://anteritalia.org/wp-content/uploads/2018/01/Appetite-for-Destruction-di-Blu.jpeg"
-},
-    {
+        {
+            "location": [44.8176, 20.4633], // Belgrado, Serbia
+            "title": "Appetite for Destruction",
+            "artist": "Blu",
+            "description": "L'opera 'Appetite for Destruction' dell'artista Blu, situata sulla facciata di un palazzo a Belgrado, affronta il tema della cementificazione selvaggia. Il murale raffigura un uomo con denti a forma di palazzi che divora alberi, un potente simbolo contro la distruzione dell'ambiente e la crescita incontrollata delle città. <br> <a href=\"https://www.blublu.org/\" target=\"_blank\">blublu.org</a>",
+            "image": "https://anteritalia.org/wp-content/uploads/2018/01/Appetite-for-Destruction-di-Blu.jpeg"
+        },
+        {
             "location": [53.1324, 23.1683], // Bialystok, Polonia
             "title": "Là dove c’era un fiore",
             "artist": "Natalia Rak",
             "description": 'L\'opera Là dove c’era un fiore di Natalia Rak, una giovane artista del 1986, è diventata celebre per la sua raffigurazione di una bambina con treccine rosse (finta) che innaffia con delicatezza un albero (vero). Questo murale è stato realizzato su un edificio popolare di Bialystok, in Polonia, ed è un simbolo di speranza e rinascita. <br> <a href=\"https://www.instagram.com/nataliarakart/" target=\"_blank\">natalia-rak</a>',
             "image": "https://anteritalia.org/wp-content/uploads/2018/01/%E2%80%9CL%C3%A0-dove-c%E2%80%99era-un-fiore%E2%80%9D-di-Natalia-Rak.jpg"
         },
-    {
+        {
             "location": [52.5200, 13.4050], // Berlino, Germania
             "title": "Clessidra",
             "artist": "Blu",
             "description": 'Sull\'alta colonna di un palazzo di uffici a Berlino, lo street artist Blu ha realizzato un\'immensa clessidra che ci scruta dall\'alto, un monito sul fatto che il tempo scorre inesorabile. Con questo murales, Blu sensibilizza il pubblico riguardo lo scioglimento dei ghiacciai e l\'innalzamento del livello del mare, fenomeni che minacciano le nostre città. La clessidra diventa un simbolo di urgenza, ricordandoci che è il momento di agire prima che sia troppo tardi. <br> <a href=\"https://www.blublu.org/\" target=\"_blank\">blublu.org</a>',
             "image": "https://www.muralesmilano.it/wp-content/uploads/2023/03/global-warming-emergenza.jpeg"
         },
-    {
+        {
             "location": [63.567, 10.537], // Tautra, Norvegia
             "title": "Pollution Pods",
             "artist": "Michael Pinsky",
             "description": 'Un progetto promosso da Cape Farewell, le Pollution Pods di Michael Pinsky sono cupole geodetiche che riproducono l\'ambiente inquinato delle grandi metropoli. Il progetto, concepito per sensibilizzare sull\'inquinamento atmosferico globale, è stato pianificato per un tour mondiale nel 2020, subendo però interruzioni a causa dell\'emergenza sanitaria. <br> <a href=\"https://www.michaelpinsky.com/\" target=\"_blank\">michaelpinsky.com</a>',
             "image": "https://www.michaelpinsky.com/wp-content/uploads/2017/07/12.-Pollution-Pods-by-Michael-Pinsky-at-Somerset-House-for-Earth-Day-2018-c-Peter-Macdiarmid-for-Somerset-House-1-e1615463490149.jpg"
         },
-    {
+        {
             "location": [54.6333, 8.0833], // North Sea, Germania
             "title": "Water House",
             "artist": "Nils-Udo",
@@ -370,14 +370,14 @@ const artivismData = [
             "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
             "image": "https://www.thisiscolossal.com/wp-content/uploads/2012/03/nest-1.jpg"
         },
-    {
+        {
             "location": [-22.9576, 18.4904], // Nambia Desert, Namibia
             "title": "Water House",
             "artist": "Nils-Udo",
             "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
             "image": "https://www.artfervour.com/wp-content/uploads/2024/10/dsc_3175-1.jpg"
         },
-    {
+        {
             "location": [41.1239, -8.6110], // Vila Nova de Gaia, Portogallo
             "title": "O Coelho (Il Coniglio)",
             "artist": "Bordalo II",
@@ -411,7 +411,14 @@ const artivismData = [
             "artist": "Zed1",
             "description": 'Situata a Napoli, nel quartiere Fuorigrotta, #UnlockTheChange di Zed1 è una delle opere antismog più grandi in Italia. Capace di assorbire lo smog prodotto da 79 automobili, questa imponente installazione è un esempio di come l\'arte urbana possa contribuire concretamente alla sostenibilità ambientale. <br> <a href="https://www.instagram.com/zed1_art/" target="_blank">instagram.com/zed1</a>',
             "image": "https://www.art-vibes.com/wp-content/uploads/2023/07/zed1-unlock-3.jpg"
-        } 
+        },
+        {
+            "location": [56.1629, 10.2039], // Danimarca
+            "title": "Lungo la costa danese",
+            "artist": "Arunkumar",
+            "description": 'Per la realizzazione di quest’opera sono stati utilizzati circa 70.000 tappi di bottiglia raccolti in diverse città del mondo. Tappi colorati e sovrapposti, intessuti con fili di acciaio per legarli verticalmente, formano questa installazione che simboleggia il legame tra l’uomo, i rifiuti e l’ambiente costiero. <br> <a href="https://arunkumarhg.com/" target="_blank">arunkumar.com</a>',
+            "image": "https://www.thegreensideofpink.com/wp-content/uploads/2021/02/Arunkumar-1.jpg"
+        }
 
     ];
 
