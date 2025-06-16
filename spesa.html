@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La Spesa del Futuro</title>
+  <link rel="icon" href="images/pianeta.png" type="image/jpeg" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .page-wrapper {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    header {
+      text-align: center;
+      color: #2D9CDB;
+      animation: fadeInText 1.5s forwards;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      animation: fadeInText 1.5s forwards 0.5s;
+    }
+
+    .description p {
+      margin-bottom: 20px;
+    }
+
+    /* GALLERY AGGIORNATA */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      max-width: 700px;
+      margin: 0 auto;
+      animation: fadeInText 1.5s forwards 1s;
+    }
+
+    .gallery a {
+      flex: 1 1 calc(50% - 20px);
+      max-width: 320px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(45, 156, 219, 0.3);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .back-link {
+      display: block;
+      max-width: 200px;
+      margin: 0 auto 40px;
+      padding: 12px 25px;
+      background-color: #2D9CDB;
+      color: white;
+      text-align: center;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      animation: bounce 1s ease infinite;
+    }
+
+    .back-link:hover {
+      background-color: #1A74B9;
+      transform: scale(1.1);
+    }
+
+    /* Lightbox Modal */
+    .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.9);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    .lightbox:target {
+      display: flex;
+    }
+
+    .lightbox-close {
+      position: fixed;
+      top: 20px;
+      right: 30px;
+      font-size: 2rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      z-index: 1001;
+    }
+
+    /* Animazioni */
+    @keyframes fadeInText {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* MEDIA QUERY PER TELEFONI */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .gallery {
+        flex-direction: column;
+        gap: 15px;
+        max-width: 100%;
+      }
+
+      .gallery a {
+        flex: none;
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .gallery img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-wrapper">
+    <header>
+      <h1>La Spesa del Futuro</h1>
+    </header>
+
+    <section class="description">
+      <p><strong>La Spesa del Futuro</strong> è un progetto che racconta un domani crudele e inesorabile: un mondo in cui la natura, ormai devastata dall’inquinamento e dal consumo irresponsabile, non offre più alcun frutto commestibile. Gli ecosistemi sono collassati, i terreni infertili, gli oceani saturi di plastica.</p>
+
+      <p>In questo scenario distopico, l’umanità è costretta a rivoluzionare il proprio modo di nutrirsi, abbracciando una <strong>dieta completamente artificiale</strong> basata su materiali plastici riciclati e sintetici.</p>
+
+      <p>Le confezioni che compongono <strong>La Spesa del Futuro</strong> riproducono i cibi che una volta popolavano le nostre tavole — pasta, biscotti, barrette energetiche, riso, tè — ma sono ormai <strong>composte da polimeri e microplastiche</strong> progettate per garantire durata infinita e apporto calorico di emergenza.</p>
+
+      <p>All’interno delle scatole c’è poco “cibo”: la plastica è studiata per bastare anche in quantità ridotte, <strong>concentrando energia e resistenza</strong>, sostituendo così il valore nutritivo tradizionale con una nuova dimensione di sopravvivenza tecnica.</p>
+
+      <p>Ogni prodotto è un <strong>monito</strong>, un frammento tangibile di una realtà in cui il legame con il naturale è stato irrimediabilmente spezzato.</p>
+
+      <p>Questo progetto non è solo una rappresentazione artistica, ma <strong>una denuncia visiva e sensoriale</strong>: ci invita a riflettere sulle conseguenze delle nostre azioni sull’ambiente e sulla fragilità del ciclo vitale.</p>
+
+      <p>La plastica che diventa cibo simboleggia <strong>la fine del naturale</strong>, un monito urgente e inquietante sul prezzo del nostro modello di sviluppo.</p>
+
+      <p><strong>La Spesa del Futuro</strong> è una chiamata a <strong>cambiare rotta</strong>, a ripensare il nostro rapporto con la Terra prima che sia troppo tardi, ricordandoci che <strong>le scelte che prendiamo oggi determinano il futuro di chi vivrà domani</strong>.</p>
+    </section>
+
+    <section class="gallery">
+      <a href="#img1"><img src="images/immagini.jpg" alt="Opera La Spesa del Futuro - vista frontale" /></a>
+      <a href="#img2"><img src="images/immagini.jpg" alt="Dettaglio dell'installazione La Spesa del Futuro" /></a>
+    </section>
+
+    <a href="planisfero.html" class="back-link">Torna al Planisfero</a>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="img1" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="images/immagini.jpg" alt="Opera La Spesa del Futuro - vista frontale ingrandita" />
+  </div>
+
+  <div id="img2" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="images/immagini.jpg" alt="Dettaglio ingrandito dell'opera" />
+  </div>
+
+</body>
+</html>
