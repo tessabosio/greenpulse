@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="pianeta.png" type="image/jpeg">
-    <title>Inizia il Tuo Viaggio / GreenPulse</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inizia il Tuo Viaggio</title>
+    <link rel="icon" href="pianeta.png" type="image/jpeg" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
     <style>
         * {
             margin: 0;
@@ -37,13 +37,14 @@
 
         .hero-text {
             position: absolute;
-            top: 10%; 
+            top: 10%;
             left: 50%;
             transform: translate(-50%, -10%);
             text-align: center;
             color: white;
             width: 100%;
             animation: slideIn 2s ease-out; /* Animazione per il testo */
+            padding: 0 20px; /* Padding per non toccare i bordi su mobile */
         }
 
         .hero-text h1 {
@@ -70,7 +71,7 @@
             cursor: pointer;
             text-decoration: none;
             transition: transform 0.3s ease, background-color 0.3s ease;
-            animation: bounce 1s ease infinite; /* Animazione di rimbalzo per il pulsante */
+            display: inline-block;
         }
 
         .cta-button:hover {
@@ -87,10 +88,24 @@
             color: white;
             text-align: center;
             opacity: 0;
-            animation: fadeInFooter 2s forwards 2.5s; /* Animazione del footer */
+            animation: fadeInFooter 2s forwards 2.5s;
+            padding: 0 10px;
+            max-width: 90vw;
+
+            /* Stili base footer per schermi grandi */
+            overflow: visible;
+            white-space: normal;
         }
 
-        /* Animazione per il fade-in della sezione hero */
+        footer p {
+            margin: 0;
+            display: block;
+            padding-left: 0;
+            animation: none;
+            white-space: normal;
+        }
+
+        /* Animazioni */
         @keyframes fadeIn {
             0% {
                 opacity: 0;
@@ -100,7 +115,6 @@
             }
         }
 
-        /* Animazione di scivolamento del testo */
         @keyframes slideIn {
             0% {
                 transform: translate(-50%, -10%) translateY(50px);
@@ -110,7 +124,6 @@
             }
         }
 
-        /* Animazione per il titolo e il paragrafo */
         @keyframes fadeInText {
             0% {
                 opacity: 0;
@@ -120,7 +133,6 @@
             }
         }
 
-        /* Animazione di rimbalzo per il pulsante */
         @keyframes bounce {
             0% {
                 transform: translateY(0);
@@ -139,7 +151,6 @@
             }
         }
 
-        /* Animazione del footer */
         @keyframes fadeInFooter {
             0% {
                 opacity: 0;
@@ -149,27 +160,75 @@
             }
         }
 
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Animazione footer scroll su schermi piccoli */
+        @media (max-width: 768px) {
+            footer {
+                overflow: hidden;
+                white-space: nowrap;
+            }
+            footer p {
+                display: inline-block;
+                padding-left: 100%;
+                animation: scroll-left 15s linear infinite;
+                white-space: nowrap;
+            }
+        }
+
+        /* Responsive per dispositivi più piccoli */
+        @media (max-width: 480px) {
+            .hero-text h1 {
+                font-size: 1.5rem; /* Titolo ancora più piccolo */
+            }
+
+            .hero-text p {
+                font-size: 0.9rem; /* Paragrafo più piccolo */
+            }
+
+            .cta-button {
+                padding: 10px 20px;
+                font-size: 0.85rem;
+            }
+
+            footer p {
+                font-size: 0.65rem;
+                animation-duration: 20s;
+            }
+        }
     </style>
 </head>
 <body>
-
     <section class="hero-section">
         <!-- Video di sfondo -->
         <video autoplay loop muted playsinline>
-            <source src="terra_video.mp4" type="video/mp4">
+            <source src="terra_video.mp4" type="video/mp4" />
             Il tuo browser non supporta il video di sfondo.
         </video>
 
         <div class="hero-text">
             <h1>Inizia il Tuo Viaggio nell'Artivismo Climatico</h1>
-            <p>Esplora un planisfero interattivo con le opere di artivisti, <br> dove ogni punto rappresenta un'azione di cambiamento sociale <br> e consapevolezza sul cambiamento climatico attraverso l'arte.</p>
+            <p>
+                Esplora un planisfero interattivo con le opere di artivisti, <br />
+                dove ogni punto rappresenta un'azione di cambiamento sociale <br />
+                e consapevolezza sul cambiamento climatico attraverso l'arte.
+            </p>
             <a href="planisfero.html" class="cta-button">Inizia il Tuo Viaggio</a>
         </div>
     </section>
 
     <footer>
-        <p>Tessa Bosio, Accademia di Belle Arti di Urbino, Scuola di Nuove Tecnologie dell’Arte, Progettazione Multimediale II, A.A. 24-25</p>
+        <p>
+            Tessa Bosio, Accademia di Belle Arti di Urbino, Scuola di Nuove Tecnologie
+            dell’Arte, Progettazione Multimediale II, A.A. 24-25
+        </p>
     </footer>
-
 </body>
 </html>
