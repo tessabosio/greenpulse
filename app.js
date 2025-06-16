@@ -62,7 +62,7 @@ const artivismData = [
         artist: "Daan Roosegaarde",
         description: 'Come un\'inondazione virtuale, l\'opera rivela i livelli crescenti delle acque e sottolinea l\'importanza dell\'innovazione nell\'ambito idrico e del cambiamento climatico. <br> <a href="https://www.studioroosegaarde.net/project/waterlicht" target="_blank">waterlicht.net</a>',
         image: "https://images.adsttc.com/media/images/5555/a66a/e58e/ce16/aa00/01a7/large_jpg/daan-roosegaarde-museumplein-waterlicht-designboom-02.jpg?1431676518",
-    },    
+    },   
     // Stati Uniti
     {
         location: [34.0522, -118.2437], // Los Angeles
@@ -178,7 +178,7 @@ const artivismData = [
             location: [-24.3963, -68.2032], // Deserto di Atacama, Cile
             title: "Unknown Fields",
             artist: "Unknown Fields",
-            description: 'Unknown Fields esplora scenari alternativi di ecologie industriali e terre selvagge precarie, utilizzando film e video per riflettere sui futuri possibili. Il progetto *In The Breast Milk of the Volcano* (2016-2018) critica la sostenibilità delle batterie al litio, utilizzate per caricare dispositivi elettronici, dopo un\'espedizione in Bolivia e nel Deserto di Atacama.<br> <a href="https://unknownfieldsdivision.com/" target="_blank">unknownfieldsdivision.com</a>',
+            description: 'Unknown Fields esplora scenari alternativi di ecologie industriali e terre selvagge precarie, utilizzando film e video per riflettere sui futuri possibili. Il progetto In The Breast Milk of the Volcano (2016-2018) critica la sostenibilità delle batterie al litio, utilizzate per caricare dispositivi elettronici, dopo un\'espedizione in Bolivia e nel Deserto di Atacama.<br> <a href="https://unknownfieldsdivision.com/" target="_blank">unknownfieldsdivision.com</a>',
             image: "https://admin.liamyoung.org/media/pages/breastmilk-of-volcanoes/7be7474d7f-1608348915/rockwood-lithium-pools-from-the-air-03-liam-young-x180.jpg"
         },
         {
@@ -290,7 +290,7 @@ const artivismData = [
             "location": [-33.8915, 151.2767], // Bondi, Australia
             "title": "The Inconvenience Store",
             "artist": "Marina DeBris",
-            "description": "Installazione del 2017 che simula un minimarket, dove tutta la merce è costituita da materiali raccolti al largo della spiaggia e riconfezionati. Ha vinto 3 premi, tra cui il Peoples Choice al Sydney's Sculpture By the Sea, sensibilizzando sul problema dei rifiuti marini. <br> <a href='http://www.washedup.us/' target='_blank'>washedup.us</a>",
+            "description": "Installazione del 2017 che simula un minimarket, dove tutta la 'merce' è costituita da materiali raccolti al largo della spiaggia e riconfezionati. Ha vinto 3 premi, tra cui il Peoples Choice al Sydney's Sculpture By the Sea, sensibilizzando sul problema dei rifiuti marini. <a href='http://www.washedup.us/' target='_blank'>washedup.us</a>",
             "image": "https://www.thegreensideofpink.com/wp-content/uploads/2021/10/The-Inconvenience-Store-Objects-1024x955.jpg"
         },
         {
@@ -418,11 +418,17 @@ const artivismData = [
             "artist": "Arunkumar",
             "description": 'Per la realizzazione di quest’opera sono stati utilizzati circa 70.000 tappi di bottiglia raccolti in diverse città del mondo. Tappi colorati e sovrapposti, intessuti con fili di acciaio per legarli verticalmente, formano questa installazione che simboleggia il legame tra l’uomo, i rifiuti e l’ambiente costiero. <br> <a href="https://arunkumarhg.com/" target="_blank">arunkumar.com</a>',
             "image": "https://www.thegreensideofpink.com/wp-content/uploads/2021/02/Arunkumar-1.jpg"
-        }
-
+        },
+        {
+    "location": [43.7267, 12.6366],
+    "title": "La Spesa del Futuro",
+    "artist": "Tessa Bosio",
+    "description": "La Spesa del Futuro mostra un mondo in cui la natura è distrutta e l’unico cibo rimasto è la plastica. Questa plastica alimentare è il simbolo di un legame spezzato con la Terra e un monito sulle conseguenze del nostro sfruttamento ambientale. Un invito urgente a cambiare, perché ciò che scegliamo oggi decide il futuro di chi vivrà domani. <br><a href=\"spesa.html\" target=\"_blank\">Per saperne di più, clicca qui.</a>",
+    "image": "images/immagini.jpg"
+}
+                                                    
     ];
 
-// Aggiungi i marker per ogni progetto di artivismo
 artivismData.forEach((project) => {
     const marker = L.marker(project.location).addTo(map);
 
