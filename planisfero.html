@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="pianeta.png" type="image/jpeg">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="pianeta.png" type="image/jpeg" />
     <title>GreenPulse</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> <!-- Font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
     <style>
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Poppins', sans-serif; /* Applicato il font a tutto il corpo */
+            font-family: 'Poppins', sans-serif;
         }
 
         #map {
-            height: 100vh; /* Altezza della mappa: 100% della finestra */
-            width: 100%; /* Larghezza della mappa */
+            height: 100vh;
+            width: 100%;
         }
 
         .popup-content {
@@ -24,6 +24,7 @@
             line-height: 1.2;
             max-width: 200px;
             word-wrap: break-word;
+            font-family: 'Poppins', sans-serif;
         }
 
         .popup-content img {
@@ -42,34 +43,84 @@
             margin: 0 0 5px;
         }
 
-        .popup-content {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    line-height: 1.2;
-    max-width: 200px;
-    word-wrap: break-word;
-}
-
-        footer {
+        /* Bottone in alto a destra */
+        .home-button {
             position: fixed;
-            bottom: 10px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 0.7rem;
+            top: 20px;
+            right: 20px;
+            background-color: #2D9CDB;
             color: white;
-            text-align: center;
-            font-family: 'Poppins', sans-serif; /* Font per il footer */
-            z-index: 1000; /* Per assicurarsi che il footer sia sopra la mappa */
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            z-index: 1001;
+            box-shadow: 0 6px 15px rgba(45, 156, 219, 0.3);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .home-button:hover {
+            background-color: #1A74B9;
+            transform: scale(1.1);
+        }
+
+        /* SU SCHERMI PICCOLI: footer scrollante */
+        @media (max-width: 768px) {
+            footer {
+                overflow: hidden;
+                white-space: nowrap;
+            }
+            footer p {
+                display: inline-block;
+                padding-left: 100%;
+                animation: scroll-left 15s linear infinite;
+                white-space: nowrap;
+            }
+        }
+
+        /* Smartphone piccoli */
+        @media (max-width: 480px) {
+            .home-button {
+                font-size: 12px;
+                padding: 8px 12px;
+                top: 15px;
+                right: 15px;
+            }
+            footer p {
+                animation-duration: 20s;
+                font-size: 0.65rem;
+            }
+        }
+
+        /* Animazione scroll testo footer */
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Animazione fade-in footer */
+        @keyframes fadeInFooter {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Animazione bounce bottone */
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
         }
     </style>
 </head>
 <body>
 
-    <div id="map"></div>
+    <a href="index.html" class="home-button">Torna alla Home</a>
 
-    <footer>
-        <p>Tessa Bosio, Accademia di Belle Arti di Urbino, Scuola di Nuove Tecnologie dell’Arte, Progettazione Multimediale II, A.A. 24-25</p>
-    </footer>
+    <div id="map"></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="app.js"></script>
