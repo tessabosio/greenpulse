@@ -424,7 +424,7 @@ const artivismData = [
     "title": "La Spesa del Futuro",
     "artist": "Tessa Bosio",
     "description": "La Spesa del Futuro mostra un mondo in cui la natura è distrutta e l’unico cibo rimasto è la plastica. Questa plastica alimentare è il simbolo di un legame spezzato con la Terra e un monito sulle conseguenze del nostro sfruttamento ambientale. Un invito urgente a cambiare, perché ciò che scegliamo oggi decide il futuro di chi vivrà domani. <br><a href=\"spesa.html\" target=\"_blank\">Per saperne di più, clicca qui.</a>",
-    "image": "mostra1.jpeg"
+    "image": "mostra (1).jpeg"
 }
                                                     
     ];
