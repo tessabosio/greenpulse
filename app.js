@@ -343,41 +343,6 @@ const artivismData = [
             "image": "https://www.michaelpinsky.com/wp-content/uploads/2017/07/12.-Pollution-Pods-by-Michael-Pinsky-at-Somerset-House-for-Earth-Day-2018-c-Peter-Macdiarmid-for-Somerset-House-1-e1615463490149.jpg"
         },
         {
-            "location": [54.6333, 8.0833], // North Sea, Germania
-            "title": "Water House",
-            "artist": "Nils-Udo",
-            "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
-            "image": "https://arquiscopio.com/wp-content/uploads/2013/01/130123_NilsUdo_WaterHouse.jpg"
-        },
-        {
-            "location": [49.2497, -123.1349], // Vancouver, Canada
-            "title": "Water House",
-            "artist": "Nils-Udo",
-            "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
-            "image": "https://www.exibart.com/repository/media/2020/11/Nils-Udo-Sequoia-Piece-Vancouver-1-di-5-124-x-124-2012.jpeg"
-        },
-        {
-            "location": [28.2916, -16.5000], // Lanzarote, Spagna
-            "title": "Water House",
-            "artist": "Nils-Udo",
-            "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
-            "image": "https://www.photoandcontemporary.com/wp-content/uploads/2021/04/Bamboo-Circle-Lanzarote-2002-1.jpg"
-        },
-        {
-            "location": [34.6775, -82.8310], // Lanzarote, Spagna
-            "title": "Water House",
-            "artist": "Nils-Udo",
-            "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
-            "image": "https://www.thisiscolossal.com/wp-content/uploads/2012/03/nest-1.jpg"
-        },
-        {
-            "location": [-22.9576, 18.4904], // Nambia Desert, Namibia
-            "title": "Water House",
-            "artist": "Nils-Udo",
-            "description": 'Nils-Udo, un artista bavarese nato nel 1937, è uno dei pionieri dell\'Art in Nature. Le sue installazioni, che fondono la Land Art con una visione ecologica e lirica, rispettano il ciclo naturale. In opere come Water House, l\'artista crea sculture nel paesaggio che la natura non forma spontaneamente, evocando il topos del locus amoenus. <br> <a href=\"https://www.photoandcontemporary.com/artisti/nils-udo/" target=\"_blank\">nils-udo.com</a>',
-            "image": "https://www.artfervour.com/wp-content/uploads/2024/10/dsc_3175-1.jpg"
-        },
-        {
             "location": [41.1239, -8.6110], // Vila Nova de Gaia, Portogallo
             "title": "O Coelho (Il Coniglio)",
             "artist": "Bordalo II",
